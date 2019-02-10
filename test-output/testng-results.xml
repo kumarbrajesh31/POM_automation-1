@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="136263" started-at="2019-02-10T16:57:37Z" finished-at="2019-02-10T16:59:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="136263" started-at="2019-02-10T16:57:37Z" finished-at="2019-02-10T16:59:53Z">
+      <class name="com.practice.qa.scripts.cart.Cart">
+        <test-method status="PASS" signature="beforClass()[pri:0, instance:com.practice.qa.scripts.cart.Cart@4fe44c]" name="beforClass" is-config="true" duration-ms="400" started-at="2019-02-10T22:27:37Z" finished-at="2019-02-10T22:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.practice.qa.scripts.cart.Cart@4fe44c]" name="init" is-config="true" duration-ms="69132" started-at="2019-02-10T22:27:37Z" finished-at="2019-02-10T22:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="VerifyItemPriceOnCart()[pri:0, instance:com.practice.qa.scripts.cart.Cart@4fe44c]" name="VerifyItemPriceOnCart" duration-ms="44" started-at="2019-02-10T22:28:46Z" finished-at="2019-02-10T22:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyItemPriceOnCart -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.practice.qa.scripts.cart.Cart@4fe44c]" name="tearDown" is-config="true" duration-ms="612" started-at="2019-02-10T22:28:46Z" finished-at="2019-02-10T22:28:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyItemPriceOnCart status=SUCCESS method=Cart.VerifyItemPriceOnCart()[pri:0, instance:com.practice.qa.scripts.cart.Cart@4fe44c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.practice.qa.scripts.cart.Cart@4fe44c]" name="init" is-config="true" duration-ms="65386" started-at="2019-02-10T22:28:47Z" finished-at="2019-02-10T22:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyItemDescriptionOnCart()[pri:0, instance:com.practice.qa.scripts.cart.Cart@4fe44c]" name="verifyItemDescriptionOnCart" duration-ms="49" started-at="2019-02-10T22:29:52Z" finished-at="2019-02-10T22:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemDescriptionOnCart -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.practice.qa.scripts.cart.Cart@4fe44c]" name="tearDown" is-config="true" duration-ms="622" started-at="2019-02-10T22:29:52Z" finished-at="2019-02-10T22:29:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyItemDescriptionOnCart status=SUCCESS method=Cart.verifyItemDescriptionOnCart()[pri:0, instance:com.practice.qa.scripts.cart.Cart@4fe44c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.practice.qa.scripts.cart.Cart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

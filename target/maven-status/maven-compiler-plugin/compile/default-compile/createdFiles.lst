@@ -1,0 +1,5 @@
+com\practice\qa\pages\MyAccountPage.class
+com\practice\qa\base\Base.class
+com\practice\qa\pages\SummerDresses.class
+com\practice\qa\pages\LoginPage.class
+com\practice\qa\util\Util.class
